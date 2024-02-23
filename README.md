@@ -1,4 +1,4 @@
-<!-- <!-- App: 'Where can I watch this?'
+App: 'Where can I watch this?'
 
 BLUF: App's purpose is to inform the user of where they can stream any movie or show. The app's api pulls from new releases, post-MVP the intention is for the streaming information to show for all movies.
 
@@ -15,4 +15,4 @@ Post MVP:
 
 -For VPN users, if the movie is not available via their local streaming service, a popup with a link to an international version of their service could help the user still watch the film. -->
 
-<!-- api credit: Watchmode API --> 
+api credit: Watchmode API 
