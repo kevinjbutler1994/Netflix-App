@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+<!-- <!-- App: 'Where can I watch this?'
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BLUF: App's purpose is to inform the user of where they can stream any movie or show. The app's api pulls from new releases, post-MVP the intention is for the streaming information to show for all movies.
 
-## Available Scripts
+When using the app, user types their movie of choice into the search bar, the app conducts an api call and returns data specific to that user's streaming service dashboard setup. 
 
-In the project directory, you can run:
+MVP: 
+Upon entering the search term, a column of movies and shows fitting the users description appears. As the user completes their query, the list narrows down to the user's specific choice.
 
-### `npm start`
+Post MVP:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Watchmode API has information for over 600,000 movies, however they only provide streaming info for the 100 newest releases. Post-MVP I will need to incorporate a new API that provides streaming info for a minimum of 300,000 movies. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-International capability.
 
-### `npm test`
+-For VPN users, if the movie is not available via their local streaming service, a popup with a link to an international version of their service could help the user still watch the film. -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- api credit: Watchmode API --> 
